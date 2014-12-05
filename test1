@@ -1,7 +1,14 @@
-Hello
-HEllo
-HEllo Hello Hello Hello
-hello hello hello hello hello
-pavan pavan pavan pavan pavan pavan 
-i hi hi hih hi hi hi hi h ih i hi ih i
-Eaven eaven eaven eaven eaven eaven eavans
+ittps://github.com/strap16/pavan.git
+
+git clone https://github.com/strap16/pavan.git
+
+git remote add  p1 https://github.com/strap16/pavan.git
+
+ git fetch p1
+
+  git commit -a
+
+  git status
+
+  git push origin master
+
