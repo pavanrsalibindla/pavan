@@ -17,6 +17,7 @@ In general the way to get the best of both worlds is to rebase local changes you
   git commit -a
 
   git status
+hello
 
   git push origin master
 
