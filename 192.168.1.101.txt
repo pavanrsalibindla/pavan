@@ -1,9 +1,9 @@
 ---------------192.168.1.101---------------------------
-Date  Time2014-12-08 23:05:02.845126
+Date  Time2014-12-17 22:15:41.666854
 -----------------------show run----------------------
 
 !Command: show running-config
-!Time: Fri Dec  5 05:58:16 2014
+!Time: Sun Dec 14 05:31:55 2014
 
 version 5.1(2)
 license grace-period
@@ -48,7 +48,6 @@ vrf context management
   ip route 0.0.0.0/0 192.168.1.1
 
 interface Ethernet2/1
-  ip address 10.10.10.1/24
 
 interface Ethernet2/2
 
@@ -65,7 +64,6 @@ interface Ethernet2/7
 interface Ethernet2/8
 
 interface Ethernet2/9
-  ip address 10.0.0.1/24
 
 interface mgmt0
   vrf member management
