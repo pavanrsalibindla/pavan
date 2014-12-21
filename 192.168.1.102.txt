@@ -1,9 +1,9 @@
 ---------------192.168.1.102---------------------------
-Date  Time2014-12-21 10:47:56.332313
+Date  Time2014-12-21 11:28:27.264058
 -----------------------show run----------------------
 
 !Command: show running-config
-!Time: Wed Dec 17 16:30:28 2014
+!Time: Wed Dec 17 17:11:00 2014
 
 version 5.1(2)
 license grace-period
