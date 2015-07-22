@@ -1,0 +1,16 @@
+---
+- name: All the hosts
+  hosts: all
+  gather_facts: false
+  connection: paramiko
+  tasks:
+   - name: sh clock
+     raw:  "{{ item }}"
+     with_items:
+       - show run ntp
+       - show run int mgmt0
+     register: reg
+   - debug: var=reg
+   - name: copy
+     local_action: template src=sh_pci.j2  dest=/home/openstack/Desktop/{{inventory_hostname}}.txt owner=openstack group=openstack mode=644
+     with_items:  reg.results
